@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Morse encoder/decoder</title>
+</head>
+<body>
+    <h2>Morse Encoder</h2>
+    Write your input here to encode a message
+    <form action="/encode" method="post">
+        <label for="EncInp">Enter text to encode</label>
+        <input type="text" id="EncodeInput" name="EncInp"><br><br>
+        <button type="submit" id="EncodeSubmit">Encode</button>
+    </form>
+    <br><br>
+    <h2>Morse Decoder</h2>
+    Write your input here to decode a message
+    <form action="/decode" method="post">
+        <label for="DecInp">Enter text to decode</label>
+        <input type="text" id="DecodeInput" name="DecInp"><br><br>
+        <button type="submit" id="DecodeSubmit">Decode</button>
+    </form>
+</body>
+</html>
