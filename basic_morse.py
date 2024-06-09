@@ -76,3 +76,5 @@ class Decoder:
                     print("For a list of valid characters, input 'EncodingScheme' or 'EncSch'.")
             decodedLines.append(" ".join(decodedText))
         return decodedLines,encodedLines
+
+  #More functions soon
